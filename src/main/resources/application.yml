@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: "postgres"
+    password: "qwerty"
+    url: "jdbc:postgresql://localhost:5432/bank-application-project"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    proporties:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      format-sql: true
+    show-sql: true
